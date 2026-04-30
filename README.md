@@ -24,20 +24,9 @@ Different learning philosophies for different codebases and preferences:
 | [Bonsai](bootstraps/bonsai.md) | Guided emergence. Weight-based growth/decay. | Structured codebases, predictable lifecycle |
 | [Mycelium](bootstraps/mycelium.md) | Relational emergence. Knowledge as connections. | Distributed systems, interconnected codebases |
 
-## Quick Start
+## Getting Started
 
-```bash
-# Copy a bootstrap into your project
-mkdir -p /path/to/project/.comprehension
-cp bootstraps/compost-heap.md /path/to/project/.comprehension/bootstrap.md
-
-# Reference it in CLAUDE.md
-echo '@.comprehension/bootstrap.md' >> /path/to/project/CLAUDE.md
-```
-
-The LLM creates and maintains the knowledge file automatically. You don't manage it.
-
-See [Integration Guide](bootstraps/integration-guide.md) for full setup and troubleshooting.
+See the [Integration Guide](bootstraps/integration-guide.md) for setup, switching strategies, and troubleshooting.
 
 ## Principles
 
